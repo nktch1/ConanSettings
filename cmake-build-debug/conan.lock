@@ -1,0 +1,93 @@
+{
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Debug\ncompiler=Visual Studio\ncompiler.runtime=MDd\ncompiler.version=15\nos=Windows\nos_build=Windows\n[options]\n[build_requires]\n[env]\n",
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "pref": null,
+    "options": "boost:asio_no_deprecated=False\nboost:bzip2=True\nboost:error_code_header_only=False\nboost:extra_b2_flags=None\nboost:filesystem_no_deprecated=False\nboost:header_only=False\nboost:layout=system\nboost:lzma=False\nboost:magic_autolink=False\nboost:namespace=boost\nboost:namespace_alias=False\nboost:python_executable=None\nboost:python_version=None\nboost:segmented_stacks=False\nboost:shared=False\nboost:system_no_deprecated=False\nboost:use_icu=False\nboost:without_atomic=False\nboost:without_chrono=False\nboost:without_container=False\nboost:without_context=False\nboost:without_contract=False\nboost:without_coroutine=False\nboost:without_date_time=False\nboost:without_exception=False\nboost:without_fiber=False\nboost:without_filesystem=False\nboost:without_graph=False\nboost:without_graph_parallel=False\nboost:without_iostreams=False\nboost:without_locale=False\nboost:without_log=False\nboost:without_math=False\nboost:without_mpi=False\nboost:without_program_options=False\nboost:without_python=True\nboost:without_random=False\nboost:without_regex=False\nboost:without_serialization=False\nboost:without_stacktrace=False\nboost:without_system=False\nboost:without_test=False\nboost:without_thread=False\nboost:without_timer=False\nboost:without_type_erasure=False\nboost:without_wave=False\nboost:zlib=True\nboost:zstd=False\nbzip2:build_executable=True\nbzip2:shared=False\njasper:jpegturbo=False\njasper:shared=False\nlibjpeg:shared=False\nlibpng:api_prefix=None\nlibpng:shared=False\nlibtiff:shared=False\nlibwebp:near_lossless=True\nlibwebp:shared=False\nlibwebp:swap_16bit_csp=False\nlibwebp:with_simd=True\nopencv:carotene=False\nopencv:contrib=False\nopencv:cuda=False\nopencv:dc1394=True\nopencv:eigen=True\nopencv:ffmpeg=False\nopencv:gstreamer=False\nopencv:jasper=True\nopencv:jpeg=True\nopencv:jpegturbo=False\nopencv:lapack=False\nopencv:nonfree=False\nopencv:openblas=False\nopencv:openexr=True\nopencv:png=True\nopencv:protobuf=True\nopencv:quirc=True\nopencv:shared=False\nopencv:tiff=True\nopencv:webp=True\nopenexr:namespace_versioning=True\nopenexr:shared=False\nprotobuf:lite=False\nprotobuf:shared=False\nprotobuf:with_zlib=False\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "1",
+     "4",
+     "2"
+    ],
+    "path": "C:\\Users\\smirn\\CLionProjects\\SGD\\conanfile.txt"
+   },
+   "1": {
+    "pref": "boost/1.71.0@conan/stable#0:bd64070aa46efcf1bcda1ffb7171f017d4104661#0",
+    "options": "asio_no_deprecated=False\nbzip2=True\nerror_code_header_only=False\nextra_b2_flags=None\nfilesystem_no_deprecated=False\nheader_only=False\nlayout=system\nlzma=False\nmagic_autolink=False\nnamespace=boost\nnamespace_alias=False\npython_executable=None\npython_version=None\nsegmented_stacks=False\nshared=False\nsystem_no_deprecated=False\nuse_icu=False\nwithout_atomic=False\nwithout_chrono=False\nwithout_container=False\nwithout_context=False\nwithout_contract=False\nwithout_coroutine=False\nwithout_date_time=False\nwithout_exception=False\nwithout_fiber=False\nwithout_filesystem=False\nwithout_graph=False\nwithout_graph_parallel=False\nwithout_iostreams=False\nwithout_locale=False\nwithout_log=False\nwithout_math=False\nwithout_mpi=False\nwithout_program_options=False\nwithout_python=True\nwithout_random=False\nwithout_regex=False\nwithout_serialization=False\nwithout_stacktrace=False\nwithout_system=False\nwithout_test=False\nwithout_thread=False\nwithout_timer=False\nwithout_type_erasure=False\nwithout_wave=False\nzlib=True\nzstd=False\nbzip2:build_executable=True\nbzip2:shared=False\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "2",
+     "3"
+    ]
+   },
+   "2": {
+    "pref": "zlib/1.2.11@conan/stable#0:8cf01e2f50fcd6b63525e70584df0326550364e1#0",
+    "options": "minizip=False\nshared=False"
+   },
+   "3": {
+    "pref": "bzip2/1.0.8@conan/stable#0:5c382ca84120276840c8074ab1851697636fb8ae#0",
+    "options": "build_executable=True\nshared=False"
+   },
+   "4": {
+    "pref": "opencv/4.1.1@conan/stable#0:30c001e35a7d0fda694b0b5849e7dd2481904534#0",
+    "options": "carotene=False\ncontrib=False\ncuda=False\ndc1394=True\neigen=True\nffmpeg=False\ngstreamer=False\njasper=True\njpeg=True\njpegturbo=False\nlapack=False\nnonfree=False\nopenblas=False\nopenexr=True\npng=True\nprotobuf=True\nquirc=True\nshared=False\ntiff=True\nwebp=True\njasper:jpegturbo=False\njasper:shared=False\nlibjpeg:shared=False\nlibpng:api_prefix=None\nlibpng:shared=False\nlibtiff:shared=False\nlibwebp:near_lossless=True\nlibwebp:shared=False\nlibwebp:swap_16bit_csp=False\nlibwebp:with_simd=True\nopenexr:namespace_versioning=True\nopenexr:shared=False\nprotobuf:lite=False\nprotobuf:shared=False\nprotobuf:with_zlib=False\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "2",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ]
+   },
+   "5": {
+    "pref": "libjpeg/9c#0:8cf01e2f50fcd6b63525e70584df0326550364e1#0",
+    "options": "shared=False"
+   },
+   "6": {
+    "pref": "libtiff/4.0.9#0:009a50ddeb47afbc9361cbc63650560c127e1234#0",
+    "options": "shared=False\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "2"
+    ]
+   },
+   "7": {
+    "pref": "libwebp/1.0.3#0:cc3ca8804df71811388ba344bb754fcfc3a6d540#0",
+    "options": "near_lossless=True\nshared=False\nswap_16bit_csp=False\nwith_simd=True"
+   },
+   "8": {
+    "pref": "libpng/1.6.37#0:009a50ddeb47afbc9361cbc63650560c127e1234#0",
+    "options": "api_prefix=None\nshared=False\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "2"
+    ]
+   },
+   "9": {
+    "pref": "jasper/2.0.14#0:78d8505b0977f10821c001074d3304c25671ea72#0",
+    "options": "jpegturbo=False\nshared=False\nlibjpeg:shared=False",
+    "requires": [
+     "5"
+    ]
+   },
+   "10": {
+    "pref": "openexr/2.3.0#0:5b897370b869bd0a8fb2a9960ac8725942daf889#0",
+    "options": "namespace_versioning=True\nshared=False\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "2"
+    ]
+   },
+   "11": {
+    "pref": "protobuf/3.5.2@bincrafters/stable#0:8cf01e2f50fcd6b63525e70584df0326550364e1#0",
+    "options": "lite=False\nshared=False\nwith_zlib=False"
+   },
+   "12": {
+    "pref": "eigen/3.3.7@conan/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": ""
+   }
+  }
+ },
+ "version": "0.3"
+}

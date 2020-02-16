@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SGD"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/smirn/CLionProjects/SGD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SGD">
+				<Option output="C:/Users/smirn/CLionProjects/SGD/cmake-build-debug/bin/SGD.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smirn/CLionProjects/SGD/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/.conan/bb0a72/1/include"/>
+					<Add directory="C:/.conan/b35745/1/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/bzip2/1.0.8/conan/stable/package/5c382ca84120276840c8074ab1851697636fb8ae/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/libtiff/4.0.9/_/_/package/009a50ddeb47afbc9361cbc63650560c127e1234/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/libwebp/1.0.3/_/_/package/cc3ca8804df71811388ba344bb754fcfc3a6d540/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/libpng/1.6.37/_/_/package/009a50ddeb47afbc9361cbc63650560c127e1234/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/jasper/2.0.14/_/_/package/78d8505b0977f10821c001074d3304c25671ea72/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/openexr/2.3.0/_/_/package/5b897370b869bd0a8fb2a9960ac8725942daf889/include/OpenEXR"/>
+					<Add directory="C:/Users/smirn/.conan/data/openexr/2.3.0/_/_/package/5b897370b869bd0a8fb2a9960ac8725942daf889/include"/>
+					<Add directory="C:/.conan/4ee4b7/1/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/eigen/3.3.7/conan/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include/eigen3"/>
+					<Add directory="C:/Users/smirn/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/libjpeg/9c/_/_/package/8cf01e2f50fcd6b63525e70584df0326550364e1/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 SGD"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SGD/fast">
+				<Option output="C:/Users/smirn/CLionProjects/SGD/cmake-build-debug/bin/SGD.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smirn/CLionProjects/SGD/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/.conan/bb0a72/1/include"/>
+					<Add directory="C:/.conan/b35745/1/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/bzip2/1.0.8/conan/stable/package/5c382ca84120276840c8074ab1851697636fb8ae/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/libtiff/4.0.9/_/_/package/009a50ddeb47afbc9361cbc63650560c127e1234/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/libwebp/1.0.3/_/_/package/cc3ca8804df71811388ba344bb754fcfc3a6d540/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/libpng/1.6.37/_/_/package/009a50ddeb47afbc9361cbc63650560c127e1234/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/jasper/2.0.14/_/_/package/78d8505b0977f10821c001074d3304c25671ea72/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/openexr/2.3.0/_/_/package/5b897370b869bd0a8fb2a9960ac8725942daf889/include/OpenEXR"/>
+					<Add directory="C:/Users/smirn/.conan/data/openexr/2.3.0/_/_/package/5b897370b869bd0a8fb2a9960ac8725942daf889/include"/>
+					<Add directory="C:/.conan/4ee4b7/1/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/eigen/3.3.7/conan/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include/eigen3"/>
+					<Add directory="C:/Users/smirn/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/include"/>
+					<Add directory="C:/Users/smirn/.conan/data/libjpeg/9c/_/_/package/8cf01e2f50fcd6b63525e70584df0326550364e1/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 SGD/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/smirn/CLionProjects/SGD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/smirn/CLionProjects/SGD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\smirn\CLionProjects\SGD\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/smirn/CLionProjects/SGD/src/main.cpp">
+			<Option target="SGD"/>
+		</Unit>
+		<Unit filename="C:/Users/smirn/CLionProjects/SGD/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/smirn/CLionProjects/SGD/cmake-build-debug/conanbuildinfo.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

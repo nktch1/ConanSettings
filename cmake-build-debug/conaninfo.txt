@@ -1,0 +1,134 @@
+[settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=Visual Studio
+    compiler.runtime=MDd
+    compiler.version=15
+    os=Windows
+
+[requires]
+    boost/1.Y.Z
+    opencv/4.Y.Z
+    zlib/1.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    arch_build=x86_64
+    build_type=Debug
+    compiler=Visual Studio
+    compiler.runtime=MDd
+    compiler.version=15
+    os=Windows
+    os_build=Windows
+
+[full_requires]
+    boost/1.71.0@conan/stable:bd64070aa46efcf1bcda1ffb7171f017d4104661
+    bzip2/1.0.8@conan/stable:5c382ca84120276840c8074ab1851697636fb8ae
+    eigen/3.3.7@conan/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    jasper/2.0.14:78d8505b0977f10821c001074d3304c25671ea72
+    libjpeg/9c:8cf01e2f50fcd6b63525e70584df0326550364e1
+    libpng/1.6.37:009a50ddeb47afbc9361cbc63650560c127e1234
+    libtiff/4.0.9:009a50ddeb47afbc9361cbc63650560c127e1234
+    libwebp/1.0.3:cc3ca8804df71811388ba344bb754fcfc3a6d540
+    opencv/4.1.1@conan/stable:30c001e35a7d0fda694b0b5849e7dd2481904534
+    openexr/2.3.0:5b897370b869bd0a8fb2a9960ac8725942daf889
+    protobuf/3.5.2@bincrafters/stable:8cf01e2f50fcd6b63525e70584df0326550364e1
+    zlib/1.2.11@conan/stable:8cf01e2f50fcd6b63525e70584df0326550364e1
+
+[full_options]
+    boost:asio_no_deprecated=False
+    boost:bzip2=True
+    boost:error_code_header_only=False
+    boost:extra_b2_flags=None
+    boost:filesystem_no_deprecated=False
+    boost:header_only=False
+    boost:layout=system
+    boost:lzma=False
+    boost:magic_autolink=False
+    boost:namespace=boost
+    boost:namespace_alias=False
+    boost:python_executable=None
+    boost:python_version=None
+    boost:segmented_stacks=False
+    boost:shared=False
+    boost:system_no_deprecated=False
+    boost:use_icu=False
+    boost:without_atomic=False
+    boost:without_chrono=False
+    boost:without_container=False
+    boost:without_context=False
+    boost:without_contract=False
+    boost:without_coroutine=False
+    boost:without_date_time=False
+    boost:without_exception=False
+    boost:without_fiber=False
+    boost:without_filesystem=False
+    boost:without_graph=False
+    boost:without_graph_parallel=False
+    boost:without_iostreams=False
+    boost:without_locale=False
+    boost:without_log=False
+    boost:without_math=False
+    boost:without_mpi=False
+    boost:without_program_options=False
+    boost:without_python=True
+    boost:without_random=False
+    boost:without_regex=False
+    boost:without_serialization=False
+    boost:without_stacktrace=False
+    boost:without_system=False
+    boost:without_test=False
+    boost:without_thread=False
+    boost:without_timer=False
+    boost:without_type_erasure=False
+    boost:without_wave=False
+    boost:zlib=True
+    boost:zstd=False
+    bzip2:build_executable=True
+    bzip2:shared=False
+    jasper:jpegturbo=False
+    jasper:shared=False
+    libjpeg:shared=False
+    libpng:api_prefix=None
+    libpng:shared=False
+    libtiff:shared=False
+    libwebp:near_lossless=True
+    libwebp:shared=False
+    libwebp:swap_16bit_csp=False
+    libwebp:with_simd=True
+    opencv:carotene=False
+    opencv:contrib=False
+    opencv:cuda=False
+    opencv:dc1394=True
+    opencv:eigen=True
+    opencv:ffmpeg=False
+    opencv:gstreamer=False
+    opencv:jasper=True
+    opencv:jpeg=True
+    opencv:jpegturbo=False
+    opencv:lapack=False
+    opencv:nonfree=False
+    opencv:openblas=False
+    opencv:openexr=True
+    opencv:png=True
+    opencv:protobuf=True
+    opencv:quirc=True
+    opencv:shared=False
+    opencv:tiff=True
+    opencv:webp=True
+    openexr:namespace_versioning=True
+    openexr:shared=False
+    protobuf:lite=False
+    protobuf:shared=False
+    protobuf:with_zlib=False
+    zlib:minizip=False
+    zlib:shared=False
+
+[recipe_hash]
+
+
+[env]
+
